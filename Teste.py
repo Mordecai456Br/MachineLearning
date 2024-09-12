@@ -2,8 +2,7 @@ import pandas as pd
 
 #baixar a database no link abaixo
 #https://www.kaggle.com/datasets/lainguyn123/student-performance-factors/data?select=StudentPerformanceFactors.csv
-dadosEstudantes = pd.read_csv("C:/Users/seixa/OneDrive/Documentos/StudentPerformanceFactors.csv")
-
+dadosEstudantes = pd.read_csv("StudentPerformanceFactors.csv")
 
 colunasManter=["Hours_Studied","Attendance","Extracurricular_Activities","Sleep_Hours","Motivation_Level",
                "Family_Income","School_Type","Gender","Exam_Score"]
